@@ -90,15 +90,6 @@ public:
                                                 min(point_1.y, point_2.y) - 1,
                                                 min(point_1.z, point_2.z) - 1));
         }
-        /*
-        cout << "res_0 = " << result_0 << '\n';
-        cout << "res_1 = " << result_1 << '\n';
-        cout << "res_2_1 = " << result_2_1 << '\n';
-        cout << "res_2_2 = " << result_2_2 << '\n';
-        cout << "res_3_1 = " << result_3_1 << '\n';
-        cout << "res_3_2 = " << result_3_2 << '\n';
-        cout << "res_4_1 = " << result_4_1 << '\n';
-        cout << "res_4_2 = " << result_4_2 << '\n'; */
         int result = result_0 - result_1 - result_2_2 - result_3_2 + result_2_1 + result_3_1 + result_4_2 - result_4_1;
         return result;
     }
